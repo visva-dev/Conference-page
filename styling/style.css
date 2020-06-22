@@ -16,7 +16,6 @@ html, body {
 }
 
 .info-links {
-    background-color: seagreen;
     margin: auto;
     max-width: 1300px;
     display: flex;
@@ -25,6 +24,7 @@ html, body {
 
 .info-links a {
     color: #D3D3D3;
+    padding: 5px 10px;
 }
 
 .navbar {
@@ -40,6 +40,17 @@ html, body {
     flex-direction: row;
 }
 
-.navbar a {
+.navbar li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.navbar ul li a{
     color: #D3D3D3;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.navbar img {
+    padding: 10px 0;
 }
