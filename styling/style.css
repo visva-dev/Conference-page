@@ -11,6 +11,16 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
+#header {
+    background-image: url("/w3images/photographer.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .top-info {
     background-color: #272A31;
 }
@@ -28,29 +38,45 @@ html, body {
 }
 
 .navbar {
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+}
+
+.nav-links {
     display: flex;
     justify-content: space-between;
     max-width: 1300px;
     margin: auto;
 }
 
-.navbar ul{
+.nav-links ul{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.navbar li{
+.nav-links li{
     list-style: none;
     padding: 10px 0;
 }
 
-.navbar ul li a{
+.nav-links ul li a{
     color: #D3D3D3;
     padding: 10px;
     font-size: 1.2rem;
 }
 
-.navbar img {
+.nav-links img {
     padding: 10px 0;
+}
+
+.info {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.top-information {
+    padding-top: 50px;
 }
