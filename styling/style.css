@@ -11,37 +11,35 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
-.container {
-    max-width: 1100px;
-    margin: auto;
-    overflow: auto;
+.top-info {
+    background-color: #272A31;
 }
 
-/* Header */
-
-.top-info {
+.info-links {
+    background-color: seagreen;
+    margin: auto;
+    max-width: 1300px;
     display: flex;
     justify-content: flex-end;
-    background-color: #272a31;
-    font-size: 1.2rem;
 }
 
-.top-info a {
+.info-links a {
     color: #D3D3D3;
 }
 
-.container #navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
-    overflow: auto;
+    max-width: 1300px;
+    margin: auto;
 }
 
-#navbar ul {
+.navbar ul{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    list-style: none;
 }
 
-#navbar ul li a {
-    text-align: center;
+.navbar a {
+    color: #D3D3D3;
 }
