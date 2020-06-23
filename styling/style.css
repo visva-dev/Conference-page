@@ -291,3 +291,16 @@ p {
     padding: 0 20px;
     color: #D3D3D3;
 }
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.footer-text h4,
+h5 {
+    color: #272A31;
+}
