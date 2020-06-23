@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-  }
+}
 
 /* Main Styling  */
 html, body {
@@ -12,12 +12,10 @@ html, body {
 }
 
 #header {
-    background-image: url("/w3images/photographer.jpg");
+    background-image: url("../Images/bg.png");
     background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: auto;
     position: relative;
 }
 
@@ -79,4 +77,31 @@ html, body {
 
 .top-information {
     padding-top: 50px;
+}
+
+.top-information h1,
+h2 {
+    color: #EC5242;
+    font-size: 2rem;
+}
+
+.ifnormation-dsc {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #D3D3D3;
+    border: 3px solid white;
+    -webkit-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+}
+
+.date {
+    color: #272a27;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.date-dsc {
+    font-size: 1.2rem;
 }
