@@ -67,7 +67,8 @@ html, body {
 }
 
 .nav-links img {
-    padding: 10px 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .info {
@@ -176,7 +177,6 @@ h2 {
 .card i,
 p {
     color: white;
-    font-size: 1.1rem;
 }
 
 .card p {
@@ -218,16 +218,16 @@ p {
 .speaker-card {
     display: flex;
     max-width: 49%;
-    padding: 15px 0 0 15px;
+    padding: 15px 15px 15px 15px;
     margin-bottom: 20px;
-    background-image: url('../Images/stripes.png');
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-position: top left;
+    -webkit-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
 }
 
 .speaker-card img {
-    width: 10em;
+    max-width: 30%;
+    height: auto;
 }
 
 .speaker-card i {
@@ -284,11 +284,11 @@ p {
 .partner-logos {
     display: flex;
     justify-content: center;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .partner-logos i {
-    padding: 0 20px;
+    padding: 0 30px;
     color: #D3D3D3;
 }
 
@@ -297,7 +297,7 @@ p {
     justify-content: space-between;
     max-width: 1300px;
     margin: auto;
-    padding: 40px 0;
+    padding: 40px 40px;
 }
 
 .footer-text h4,
