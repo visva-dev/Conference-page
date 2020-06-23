@@ -251,3 +251,43 @@ p {
 .speaker-dsc {
     padding-left: 10px;
 }
+
+.partner {
+    background-color: #272A31;
+}
+
+.partner-info {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.partner-name {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.partner-name h2 {
+    color: #D3D3D3;
+}
+
+.partner-name h2::after {
+    display: block;
+    content: '';
+    background: #EC5242;
+    height: 2px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.partner-logos i {
+    padding: 0 20px;
+    color: #D3D3D3;
+}
