@@ -7,7 +7,7 @@ Website consists of 3 pages - main page, about page and tickets page, Each of th
 
 # Screenshots
 
-![screenshot](./images/1zq9xPl.png)
+![screenshot](/images/1zq9xPl.png)
 
 ![screenshot](./images/kgdNcI8.png)
 
