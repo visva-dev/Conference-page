@@ -438,15 +438,15 @@ h5 {
     color: #1a1a1a;
     text-align: center;
     margin-bottom: 10px;
-  }
+}
   
-  .content {
+.content {
     position: relative;
     width: 90%;
     max-width: 400px;
     margin: auto;
     overflow: hidden;
-  }
+}
   
   .content .content-overlay {
     background: rgba(0,0,0,0.7);
@@ -461,17 +461,17 @@ h5 {
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
-  }
+}
   
-  .content:hover .content-overlay{
+.content:hover .content-overlay{
     opacity: 1;
-  }
+}
   
-  .content-image{
+.content-image{
     width: 100%;
-  }
+}
   
-  .content-details {
+.content-details {
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -486,42 +486,42 @@ h5 {
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-  }
+}
   
-  .content:hover .content-details{
+.content:hover .content-details{
     top: 50%;
     left: 50%;
     opacity: 1;
-  }
+}
   
-  .content-details h3{
+.content-details h3{
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
     margin-bottom: 0.5em;
     text-transform: uppercase;
-  }
+}
   
-  .content-details p{
+.content-details p{
     color: #fff;
     font-size: 0.8em;
-  }
+}
   
-  .fadeIn-bottom{
+.fadeIn-bottom{
     top: 80%;
-  }
+}
   
-  .fadeIn-top{
+.fadeIn-top{
     top: 20%;
-  }
+}
   
-  .fadeIn-left{
+.fadeIn-left{
     left: 20%;
-  }
+}
   
-  .fadeIn-right{
+.fadeIn-right{
     left: 80%;
-  }
+}
 
 /* About page styling end */
 
@@ -554,24 +554,61 @@ h5 {
     justify-content: center;
 }
 
-.step-1 {
+.step-1,
+.step-2 {
     display: inline-block;
     padding: 10px 20px;
     border: 1px solid #EC5242;
     border-radius: 20px;
 }
 
-.step-1 span {
+.step-1 span,
+.step-2 span {
     color: #EC5242;
     padding-right: 5px;
 }
 
-.step-1 p {
+.step-1 p,
+.step-2 p {
     color: #000;
 }
 
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+}
 
+table,
+th,
+td {
+    border: 2px dotted #EC5242;
+    border-collapse: collapse;
+    -webkit-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+    box-shadow: 0px 1px 49px -19px rgba(0,0,0,0.55);
+}
 
+th {
+    background-color: #D3D3D3;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.lunch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-lunch form{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Tickets page styling ends */
 
