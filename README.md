@@ -5,27 +5,27 @@ Project is based on an online website for a conference, but i created website fo
 As much as i can i followed the best practices that i already learned in the previous projects, like setting-up a code linter, using Github flow, making good commit messages and writing a good README.
 Website consists of 3 pages - main page, about page and tickets page, Each of these pages has been designed to be responsive for all device sizes.
 
-![screenshot](../images/1zq9xPl.png)
+![screenshot](./Images/1zq9xPl.png)
 
-![screenshot](./images/kgdNcI8.png)
+![screenshot](./Images/kgdNcI8.png)
 
-![screenshot](./images/2QOcw7g.png)
+![screenshot](./Images/2QOcw7g.png)
 
-![screenshot](./images/3uPXxi8.png)
+![screenshot](./Images/3uPXxi8.png)
 
-![screenshot](./images/9NksFSq.png)
+![screenshot](./Images/9NksFSq.png)
 
-![screenshot](./images/b09KLFy.png)
+![screenshot](./Images/b09KLFy.png)
 
-![screenshot](./images/ZYSZd8l.png)
+![screenshot](./Images/ZYSZd8l.png)
 
-![screenshot](./images/crvCqlh.png)
+![screenshot](./Images/crvCqlh.png)
 
-![screenshot](./images/YxQfDc7.png)
+![screenshot](./Images/YxQfDc7.png)
 
-![screenshot](./images/qKs3lMO.png)
+![screenshot](./Images/qKs3lMO.png)
 
-![screenshot](./images/XriuT3V.png)
+![screenshot](./Images/XriuT3V.png)
 
 ## Built With
 
