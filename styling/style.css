@@ -71,7 +71,7 @@ html, body {
     height: auto;
 }
 
-.topnav {
+.mobilenav {
     display: none;
 }
 
@@ -319,7 +319,6 @@ h5 {
 .mobilenav {
     display: block;
     overflow: hidden;
-    background-color: #EC5242;
     padding-bottom: 49px;
     position: relative;
 }
@@ -327,12 +326,13 @@ h5 {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .mobilenav #myLinks {
     display: none;
-    padding: 40px 0 0 0;
+    padding: 0 0 0 47px;
 }
 
 /* Style navigation menu links */
 .mobilenav a {
     color: white;
+    background-color: rgba(105, 104, 104, 0.548);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -354,9 +354,41 @@ h5 {
     color: black;
 }
 
-/* Style the active link (or home/logo) */
-/* .active {
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.main-title h2 {
+    color: #D3D3D3;
+}
+
+.card {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    padding: 60px 10px;
+    margin: 10px;
+    background: rgba(105, 104, 104, 0.548);
+}
+
+.card i {
+    padding-right: 10px;
+}
+
+.main-dsc {
+    display: flex;
+    justify-content: center;
+}
+.main-dsc h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-decoration: none;
     background-color: #EC5242;
-    color: white;
-} */
+}
 }
