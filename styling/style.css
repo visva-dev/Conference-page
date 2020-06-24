@@ -49,6 +49,10 @@ html, body {
     margin: auto;
 }
 
+.nav-links a:hover {
+    color: #272A31;
+}
+
 .nav-links ul{
     display: flex;
     justify-content: space-between;
@@ -57,7 +61,11 @@ html, body {
 
 .nav-links li{
     list-style: none;
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+.nav-links li:hover {
+    background-color: rgba(105, 104, 104, 0.548);
 }
 
 .nav-links ul li a{
@@ -106,7 +114,7 @@ h2 {
 }
 
 .date {
-    color: #272a27;
+    color: #272A31;
     font-size: 2rem;
     margin-top: 10px;
 }
@@ -288,7 +296,7 @@ p {
 .partner-logos {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 1em 0;
 }
 
 .partner-logos i {
@@ -350,7 +358,7 @@ h5 {
 
 /* Add a grey background color on mouse-over */
 .mobilenav a:hover {
-    background-color: #ddd;
+    background-color: #D3D3D3;
     color: black;
 }
 
@@ -396,4 +404,5 @@ h5 {
     max-width: 100%;
     margin: 5px;
 }
+
 }
