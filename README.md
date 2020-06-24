@@ -5,9 +5,7 @@ Project is based on an online website for a conference, but i created website fo
 As much as i can i followed the best practices that i already learned in the previous projects, like setting-up a code linter, using Github flow, making good commit messages and writing a good README.
 Website consists of 3 pages - main page, about page and tickets page, Each of these pages has been designed to be responsive for all device sizes.
 
-# Screenshots
-
-![screenshot](/images/1zq9xPl.png)
+![screenshot](./images/1zq9xPl.png)
 
 ![screenshot](./images/kgdNcI8.png)
 
