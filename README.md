@@ -1,14 +1,17 @@
 # Conference-page
 Microverse HTML &amp; CSS capstone project: Conference page
-
-Page consists of 3 pages - main page, about page and tickets page, Each of these pages has been designed to be responsive for all device sizes.
-
-# Screenshots
-![screenshot](./images/1zq9xPl.png)
-
 In this project, i'm using Html, CSS & little bit of Javascript to build capstone project.
 Project is based on an online website for a conference, but i created website for our team meeting after we finish Microverse.
 As much as i can i followed the best practices that i already learned in the previous projects, like setting-up a code linter, using Github flow, making good commit messages and writing a good README.
+Website consists of 3 pages - main page, about page and tickets page, Each of these pages has been designed to be responsive for all device sizes.
+
+# Screenshots
+
+[screenshot](./images/1zq9xPl.png)
+
+[screenshot](./images/kgdNcI8.png)
+
+[screenshot](./images/2QOcw7g.png)
 
 ## Built With
 
