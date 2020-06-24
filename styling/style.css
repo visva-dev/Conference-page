@@ -391,4 +391,9 @@ h5 {
     text-decoration: none;
     background-color: #EC5242;
 }
+
+.speaker-card {
+    max-width: 100%;
+    margin: 5px;
+}
 }
