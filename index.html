@@ -32,6 +32,20 @@
                 </ul>
             </div>
         </nav>
+        <!-- Mobile Navigation Menu -->
+<div class="mobilenav">
+    <!-- <a href="#home" class="active"></a> -->
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#">About</a>
+        <a href="#">Program</a>
+        <a href="#">Join</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
         <section class="info">
             <div class="top-information">
                 <h2>"Hello! Sharing World"</h2>
@@ -151,5 +165,16 @@
             </div>
         </div>
     </footer>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+    }
+    </script>
 </body>
 </html>

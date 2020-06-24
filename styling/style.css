@@ -71,6 +71,10 @@ html, body {
     height: auto;
 }
 
+.topnav {
+    display: none;
+}
+
 .info {
     max-width: 1300px;
     margin: auto;
@@ -303,4 +307,56 @@ p {
 .footer-text h4,
 h5 {
     color: #272A31;
+}
+
+@media only screen and (max-width: 767px) {
+    .top-info,
+    .navbar {
+        display: none;
+    }
+
+/* Style the Mobile navigation menu */
+.mobilenav {
+    display: block;
+    overflow: hidden;
+    background-color: #EC5242;
+    padding-bottom: 49px;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.mobilenav #myLinks {
+    display: none;
+    padding: 40px 0 0 0;
+}
+
+/* Style navigation menu links */
+.mobilenav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.mobilenav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.mobilenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+/* .active {
+    background-color: #EC5242;
+    color: white;
+} */
 }
