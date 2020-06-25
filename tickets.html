@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script
+    src="https://kit.fontawesome.com/343a51aa95.js"
+    crossorigin="anonymous"
+></script>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css" />
+<title>Conference page</title>
+</head>
+<body>
+<header id="header" class="header">
+    <div class="top-info">
+    <div class="info-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+    </div>
+    </div>
+    <nav class="navbar">
+    <div class="nav-links">
+        <a href="index.html"
+        ><img src="./Images/logo.png" width="197" height="57" alt="logo"
+        /></a>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#main-program">Program</a></li>
+        <li><a href="tickets.html">Join</a></li>
+        <li><a href="#partner">Partners</a></li>
+        <li><a href="#featured-speakers">News</a></li>
+        <li><a href="#">CC Campaign</a></li>
+        </ul>
+    </div>
+    </nav>
+    <!-- Mobile Navigation Menu -->
+    <div class="mobilenav">
+    <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="tickets.html">Join</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>
+</header>
+<main class="main-container">
+    <section class="tickets">
+    <div class="tickets-title">
+        <h1>Select Tickets</h1>
+    </div>
+    <div class="actions">
+        <div class="step-1">
+        <p>
+            <span>&#9830; STEP 1</span>Please select the day you want to join
+            this meeting
+        </p>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+        <tr>
+            <th>Ticket</th>
+            <th>1-Day-Ticket</th>
+            <th colspan="2">2-Day-Ticket</th>
+            <th>CC Affiliate/Partners</th>
+        </tr>
+        <tr>
+            <td>Date:</td>
+            <td>15. Oct(Thu)</td>
+            <td>16. Oct(Fri)</td>
+            <td>15.-16. Oct(Thu-Fri)</td>
+            <td>15.-16. Oct(Thu-Fri)</td>
+        </tr>
+        <tr>
+            <td>Normal:</td>
+            <td>
+            $100<input
+                type="checkbox"
+                id="normal"
+                name="normal100"
+                value="100$"
+            />
+            </td>
+            <td>
+            $200<input
+                type="checkbox"
+                id="normal200"
+                name="normal200"
+                value="200$"
+            />
+            </td>
+            <td>
+            $300<input
+                type="checkbox"
+                id="normal300"
+                name="normal300"
+                value="300$"
+            />
+            </td>
+            <td>
+            $0<input
+                type="checkbox"
+                id="normal0"
+                name="normal0"
+                value="0$"
+            />
+            </td>
+        </tr>
+        <tr>
+            <td>Students:</td>
+            <td>
+            $100<input
+                type="checkbox"
+                id="1-day"
+                name="day"
+                value="1-day"
+            />
+            </td>
+            <td>
+            $200<input
+                type="checkbox"
+                id="2-day"
+                name="day"
+                value="2-day"
+            />
+            </td>
+            <td>
+            $300<input
+                type="checkbox"
+                id="2-day-300"
+                name="day"
+                value="2-day"
+            />
+            </td>
+            <td>
+            $0<input
+                type="checkbox"
+                id="1-day-sponsor"
+                name="day"
+                value="1-day"
+            />
+            </td>
+        </tr>
+        </table>
+    </div>
+    <div class="lunch">
+        <div class="tickets-title">
+        <h2>Select Your Lunch</h2>
+        </div>
+        <div class="step-2">
+        <p>
+            <span>&#9830; STEP 2</span>Please select your lunch for registered
+            day.
+        </p>
+        </div>
+        <div class="choose-lunch">
+        <form>
+            <input type="checkbox" id="menu-1" name="menu-1" value="menu-1" />
+            <label for="menu-1">Menu 1</label><br />
+            <input type="checkbox" id="menu-2" name="menu-2" value="menu-2" />
+            <label for="menu-2">Menu 2</label><br />
+            <input type="checkbox" id="menu-3" name="menu-3" value="menu-3" />
+            <label for="menu-3">Menu 3</label><br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+        </div>
+    </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-info">
+    <div class="footer-logo">
+        <img
+        src="./Images/logo.png"
+        width="197"
+        height="57"
+        alt="footer-logo"
+        />
+    </div>
+    <div class="footer-text">
+        <h4>&copy; 2020 Visva.dev Some Rights Reserved.</h4>
+        <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+        facilis ratione placeat. Minima deleniti rerum quidem cupiditate
+        pariatur, ipsam cum.
+        </h5>
+    </div>
+    </div>
+</footer>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById('myLinks');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+    }
+    }
+</script>
+</body>
+</html>
