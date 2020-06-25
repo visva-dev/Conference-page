@@ -20,6 +20,10 @@ body {
   position: relative;
 }
 
+.main-container {
+  overflow-x: hidden;
+}
+
 .top-info {
   background-color: #272a31;
 }
@@ -149,6 +153,7 @@ p {
 
 .main-title h2 {
   text-align: center;
+  margin: 25px 0;
 }
 
 .main-title h2::after {
@@ -164,7 +169,8 @@ p {
 .main-dsc h2 {
   text-align: center;
   font-size: 1.2rem;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+  margin: 25px 0;
   color: #d3d3d3;
   text-decoration: underline;
 }
@@ -686,8 +692,8 @@ td {
   .main-dsc h2 {
     display: inline-block;
     text-align: center;
-    padding: 10px;
-    margin-bottom: 40px;
+    padding: 20px;
+    margin-bottom: 60px;
     text-decoration: none;
     background-color: #ec5242;
   }
