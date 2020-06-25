@@ -35,7 +35,7 @@ Website consists of 3 pages - main page, about page and tickets page, Each of th
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/visva-dev/Conference-page/57ee440fcffedf357b7d5deed00618f9d3f4f238/index.html)
+[Live Demo Link](https://rawcdn.githack.com/visva-dev/Conference-page/e95d0aba715cdf315da8f3f6eef8fe7a21f07f36/index.html)
 
 ## Demo video
 
