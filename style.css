@@ -535,14 +535,14 @@ h5 {
   margin: 40px 0;
 }
 
-.tickets-title h1::after {
+.tickets-title h2::after {
   display: block;
   content: '';
   background: #ec5242;
   height: 2px;
   width: 80%;
   margin-top: 10px;
-  margin-left: 18px;
+  margin-left: 20px;
 }
 
 .actions {
