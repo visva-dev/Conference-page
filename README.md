@@ -7,26 +7,6 @@ Website consists of 3 pages - main page, about page and tickets page, Each of th
 
 ![screenshot](./Images/1zq9xPl.png)
 
-![screenshot](./Images/kgdNcI8.png)
-
-![screenshot](./Images/2QOcw7g.png)
-
-![screenshot](./Images/3uPXxi8.png)
-
-![screenshot](./Images/9NksFSq.png)
-
-![screenshot](./Images/b09KLFy.png)
-
-![screenshot](./Images/ZYSZd8l.png)
-
-![screenshot](./Images/crvCqlh.png)
-
-![screenshot](./Images/YxQfDc7.png)
-
-![screenshot](./Images/qKs3lMO.png)
-
-![screenshot](./Images/XriuT3V.png)
-
 ## Built With
 
 - Html
