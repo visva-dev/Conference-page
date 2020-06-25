@@ -674,7 +674,7 @@ td {
   .card {
     display: flex;
     width: auto;
-    flex-direction: row;
+    flex-direction: column;
     padding: 60px 10px;
     margin: 10px;
     background: rgba(105, 104, 104, 0.548);
@@ -701,5 +701,11 @@ td {
   .speaker-card {
     max-width: 100%;
     margin: 5px;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
